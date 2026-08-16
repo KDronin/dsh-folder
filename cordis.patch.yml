@@ -1,0 +1,4 @@
+# dsh-folder bundle patch: insert the plugin into the web profile composition.
+- insert:
+    - id: dsh-folder
+      name: 'dsh-folder'

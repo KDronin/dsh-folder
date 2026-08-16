@@ -11,6 +11,16 @@ DeepSeek Harness（DSH）工作区插件：在侧边栏工作区「三个点」�
 
 ## 安装
 
+### 方式一：DSH 官方命令
+
+```sh
+dsh plugin --profile web add github:KDronin/dsh-folder
+```
+
+然后重启 `dsh web` 并刷新页面。
+
+### 方式二：手动安装
+
 把 `dsh-folder` 复制到 DSH profile 的 `node_modules`：
 
 ```powershell
